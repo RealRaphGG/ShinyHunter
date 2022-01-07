@@ -1,5 +1,5 @@
 /*
-Authors: Rapheël Boucher-Lachaud
+Authors: RaphGG
 */
 
 // Pour utiliser les servo-moteurs
