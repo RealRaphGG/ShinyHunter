@@ -1,3 +1,7 @@
+'''
+Author : RaphGG
+'''
+
 # OpenCV
 import cv2
 
