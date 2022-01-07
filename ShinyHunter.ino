@@ -1,5 +1,5 @@
 /*
-Authors: RaphGG
+Author : RaphGG
 */
 
 // Pour utiliser les servo-moteurs
