@@ -8,17 +8,11 @@ import cv2
 # numpy
 import numpy as np
 
-# time pour les 5s de delai pour mise au point de la cam
-import time
-
 # pour créer les fichiers où seront stockées les images
 import os
 
 # pour communiquer avec l'arduino
 import serial
-
-# matplotlib pour visualiser une image
-from matplotlib import pyplot as plt
 
 # numéro port webcam
 WEBCAM_NUMBER = 0
