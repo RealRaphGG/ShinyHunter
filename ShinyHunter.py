@@ -34,7 +34,7 @@ ATTEMPT_NUMBER = 0
 lower_red = np.array([160, 140, 125]) 
 upper_red = np.array([180, 255, 255])
 
-On préferera utiliser le bouton equipe car trop de nuance de rouge dans l'arrière plan, possibilité d'échec
+# On préferera utiliser le bouton equipe car trop de nuance de rouge dans l'arrière plan, possibilité d'échec
 '''
 
 # defini la plage HSV de la couleur du bouton Equipe (l'animation du shiny retarde l'apparition de l'IU)
@@ -64,7 +64,7 @@ def isItShiny():
     print('Webcam éteinte\n')
 
     '''
-    # Pas nécéssaire pour mon cas. Si votre webcam sature parfois (couleur de prixel très variable), activer le en enlevant les 3 apostrophe en haut et en bas de ce commentaire
+    # Pas nécéssaire pour mon cas. Si votre webcam sature parfois (couleur de pixel très variable), activer le en enlevant les 3 apostrophe en haut et en bas de ce commentaire
 
     # flou gaussien
     frame = cv2.GaussianBlur(frame, (11,11), 0)
